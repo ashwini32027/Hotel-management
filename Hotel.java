@@ -8,9 +8,9 @@ import  java.sql.Statement;
 import  java.sql.ResultSet;
 public class HotelSystem
 {
-    private static final String url="jdbc:mysql://127.0.0.1:3306/hotel_db";
-    private static final String username="root";
-    private static  final String password="773939";
+    private static final String url="";
+    private static final String username="";
+    private static  final String password="";
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try {
             Class.forName("com.mysql.jdbc.Driver");
